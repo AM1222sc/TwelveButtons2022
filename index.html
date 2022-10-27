@@ -2,8 +2,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <style></style>
+    <title>Twelve Buttons</title>
+     <style>
+  h1,h2{
+    color:rgb(91,204,57);
+  }
+  p#TR {
+    display:none;
+    color:rgb(55,155,10)
+  }
+  p#Hill {
+    display:none;
+    color:rgb(185,155,10)
+  }
+  p#largest{
+    display:none;
+    color:rgb(244,66,88);
+    
+  }
+    button{
+      font-size: 30px;
+      background-color:rgb(244,66,88);
+      border-radius: 25PX;
+      transition:2s;
+    }
+    button:hover{
+      font-size: 30px;
+      color:rgb(244,66,88);
+      background-color:rgb(0,0,0);
+      border-radius: 25PX;
+    }
+  button#magic{
+    display:block;
+  }
+    body#back{
+      background-color:rgb(0,0,0)
+    }
+  </style>
   </head>
   <body id="back">
     <h1>Find Red</h1>
@@ -29,9 +64,7 @@
 
         function red() {
           document.getElementById('shh').style.background = "rgb(220,0,0)";
-        }
-      </script>
-      <script>
+     
         function falsePrompt() {
           prompt('Capital Of U.S.');
           prompt('Largest city in the U.S.');
